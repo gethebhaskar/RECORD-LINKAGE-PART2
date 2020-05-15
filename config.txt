@@ -1,0 +1,16 @@
+[GLOBAL]
+root_path=C:\Users\bgethe\Downloads\Code_repository\Record-linkage\HPE_2nd_req_v2\
+input_file_1=POS_DATA.xlsx
+input_file_1_sheet_name=Sheet1
+input_file_2=Master_File.xlsx
+input_file_2_sheet_name=Sheet1
+separator=|
+header_exists=True
+output_excel_name=output.xlsx
+output_sheet_1=NameExact
+output_sheet_2=NameAddressExact
+output_sheet_3=AllExact
+output_sheet_4=NamePotential
+output_sheet_5=NameAddressPotential
+output_sheet_6=AllPotential
+state_mapping_file=state_mapping.txt
